@@ -1,0 +1,508 @@
+#Continer{
+    background-color: #f8e9e2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    margin: 2px;
+}
+#header{
+    height: 83px;
+    font-size: 33px;
+    font-weight: 600;
+    color:#651D28;
+    background-color: white;
+}
+#heading{
+    margin-left: 100px;
+    margin-top: -64px;
+}
+#nav{
+    background-color:#4D1C20;
+    position: relative;
+    height: 50px;
+    box-sizing: border-box;
+    padding: .5px;
+}
+#navtext{
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+#navtext a{
+    text-decoration: none;
+    font-size: 22px ;
+    font-weight: 600;
+    color:#F8F8F8 ;
+}
+#navtext a:hover{
+    font-size: 24px ;
+    font-weight: 600;
+    color: #E5AAAE;
+}
+#navtext ul {
+    text-decoration: none;
+    font-weight: 600;
+    color:#ffffff ;
+}
+#Collection {
+    display: none;
+    height: 300px;
+    position: absolute;
+    width: 200px;
+    margin-top: -5px;
+
+}
+#navtext:hover #Collection {
+    display: block;
+    background-color: #4D1C20;
+}
+#Collection ul {
+    list-style: none;
+    line-height: 30px;
+}
+#Collection ul li{
+    font-size: 16px;
+    line-height: 40px;
+    text-align: left;
+}
+#Collection ul li:hover{
+    font-size: 17px;
+    color: #E5AAAE;
+}
+#banner img {
+    height: 450px;
+    width: 1245px;
+}
+#banner{
+    height: 480px;
+    width: 1245px;
+    background-color: #4D1C20;
+}
+
+#INFO {
+  margin-top: -50px;
+    box-sizing: border-box;
+    padding: 50px;
+    height: 330px;
+    width: auto;  
+    background-color: #f8e9e2;
+    color:#000000 ;
+}
+#marquee{
+    background-color: #4D1C20;
+    height: 160px ;
+}
+#product1{
+    height: 105px ;
+    width: 105px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 47px;
+    margin-top: 30px;
+    float: left;
+}
+#marquee :hover{
+    box-shadow: 2px 2px 5px 2px rgb(0, 0, 0);
+}
+#productimg{
+    height: 100px ;
+    width: 100px;
+    margin: 3%;
+    box-shadow: 2px 2px 2px 2px white;
+    border-radius: 50%;
+}
+#about{
+    box-sizing: border-box;
+    margin: 50px;
+    height: 370px;
+    width: auto;  
+    color: #4D1C20;
+    background-color: #f8e9e2;
+}
+#aboutcontent{
+    font-size: 17px ;
+    float: left;
+    width: 750px;
+}
+#aboutimg{
+    margin-left: 70px;
+    margin-top: -20px;
+    height: 310px; 
+    width: 266px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px#3b1518;
+    background-color: #4D1C20;
+    float: left;
+}
+#aboutimg :hover{
+   height: 310px; 
+   width: 260px;
+   box-shadow: 5px 5px 5px 5px#000000;
+}
+#gallery{
+    background-color: #f8e9e2;
+    height: 900px;
+}
+
+#gallery h1{
+    color:#3b1518;
+}
+#gallery h1:hover{
+    color: #dc8288;
+    font-size: 33px;
+}
+#gallimgbox{
+    border-radius: 5px;
+    height: 310px;
+    width: 210px;
+    margin: 45px;
+    background-color: #3b1518;
+    float: left;
+}
+#gallimgbox:hover{
+    box-shadow: 2px 5px 4px 4px rgb(53, 8, 8);
+}
+#gallimg{
+    border-radius: 5px;
+    margin: 5px;
+    height: 250px;
+    width: 200px;
+    background-color: #f8e9e2;
+    float: left;
+}
+#gallimg:hover{
+    border-radius: 5px;
+    margin: 0px;
+    height: 255px;
+    width: 210px;
+    background-color: #f8e9e2;
+    float: left;
+}
+#gallimgbox p{
+    color: rgb(102, 186, 189);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+#gallimgbox p:hover {
+    color: #E5AAAE;
+    height: 200px;
+}
+#newsletter{
+    height: 200px;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: #3b1518;
+    }
+    #newsletter h1{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    }
+    #newsletter input[type='email']{
+    height: 50px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 350px;
+    border-radius: 5px;
+    outline: 0px;
+    font-size: 18px;
+    text-align: center;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    
+    }
+    #newsletter input[type='button']{
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    outline: 0px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    background-color: #dc8288;
+    border-style: none;
+    float: left;
+    }
+    #contact{
+        color:#4D1C20;
+        height: 550px;
+        background-color: #f8e9e2;
+    }
+    #Contactbox1,#Contactbox2,#Contactbox3{
+        height: 400px;
+        width: 230px;
+        margin-top: 20px;
+        margin-left: 40px;
+        background-color:rgb(254, 254, 254);
+        float: left;
+        box-shadow: 2px 2px 5px 2px rgb(52, 52, 67);
+    }
+    #Contactbox1 span pre  {
+        color:#3b1518;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+    }
+    #Contactbox1 ul li,#Contactbox2 ul li{
+        list-style: none;
+        line-height: 2.5;
+    }
+    #Contactbox1 ul li a{ 
+        margin-top: 50px;
+        text-decoration: none;
+        color: #201b67;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+    }
+    #Contactbox1 ul li a:hover{ 
+        color:  rgb(228, 170, 103);
+        font-size: 20px;
+    }
+    
+    #Contactbox1 ul li a{
+        font-size: 19px;
+    }
+    #Contactbox2 span pre  {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        color:#3b1518;
+        font-size: 26px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    #Contactbox2 ul li{ 
+        margin-top: 3px;
+        text-decoration: none;
+        color: #201b67;
+        font-size: px;
+        font-weight: 600;
+    
+    }
+    #Contactbox2 p{ 
+        color: #201b67;
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: -20px;
+    }
+    #Contactbox3 h1 {
+        margin-top: 22px;
+        color:#3b1518;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+    }
+    #Contactbox3 p {
+        
+        color: #201b67;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+    }
+    #Contactbox4{
+        height: 400px;
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 40px;
+        background-color:rgb(254, 254, 254);
+        float: left;
+        box-shadow: 2px 2px 5px 2px rgb(52, 52, 67);
+    }
+    #Contactbox4 iframe{
+        height: 400px;
+        width: 300px;
+       
+    }
+    #SignIn{
+        height: 450px;
+        width: 400px;
+        background-color: #3b1518;
+        margin: auto;
+    }
+    #onn,#off{
+        font-size: 25px;
+        font-weight: 700;
+        height: 70px;
+        width: 200px;
+        float: left;
+        background-color: #dc8288;
+    }
+    #onn,#off:hover
+    {
+        background-color: darkcyan;
+    }
+    #SignIn input{
+        text-align: center;
+        font-size: 16px;
+        height: 30px;
+        width: 300px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    #Submit{
+        height: 40px;
+        width: 200px;
+        margin-left: 100px;
+        margin-top: 35px;
+        color: #3b1518;
+        font-size: 18px;
+        font-weight: 900;
+        background-color: rgb(236, 169, 169);
+    }
+    #items{
+        margin-top: 50px;
+    }
+    #items h1{
+        color: #3b1518;
+    }
+    #sectionofperfumes{
+        height: 400px;
+        margin: 20px;
+        margin-left: 50px;
+        background-color: #3b1518;
+        color: white;
+    }
+    #allperfumes {
+        float: left;
+        margin: 42px;
+        height: 310px;
+        background-color: rgb(25, 88, 104);
+        box-shadow: 4px 4px 4px 4px rgb(0, 0, 0);
+        font-size: 18px;
+    }
+    #allperfumes:hover{
+        box-shadow: 2px 2px 4px 2px rgb(130, 69, 69);
+    }
+    #sectionofperfumes2{
+        height: 400px;
+        float: left;
+        margin: 10px;
+        margin-left: 50px;
+        background-color: #f8e9e2;
+    }
+    #allperfumes2{
+        float: left;
+        margin: 42px;
+        height: 310px;
+        background-color: #3b1518;
+        color: white;
+        box-shadow: 2px 2px 4px 2px rgb(120, 118, 118);
+        font-size: 18px;
+    }
+    #allperfumes2:hover{
+        box-shadow: 4px 4px 4px 4px rgb(0, 0, 0);
+    }
+@media (min-width: 0px) and (max-width: 400px) {
+    #Continer{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #logo{
+        margin: 2px;
+    }
+    #header{
+        height: 83px;
+        font-size: 25px;
+        font-weight: 700;
+        color:#651D28;
+    }
+    #heading{
+        margin-left: 100px;
+        margin-top: -64px;
+    }
+    #nav{
+        background-color:#4D1C20;
+        position: relative;
+        height: 230px;
+        box-sizing: border-box;
+        padding: .5px;
+    }
+    #navtext{
+        float: left;
+        width: 200px;
+        margin-left: 70px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #navtext a{
+        text-decoration: none;
+        font-size: 18px ;
+        font-weight: 600;
+        color:#dfefea ;
+    }
+    #navtext a:hover{
+        font-size:16px ;
+        font-weight: 600;
+        color: #E5AAAE;
+    }
+    #navtext ul {
+        text-decoration: none;
+        font-weight: 600;
+        color:#dfefea ;
+    }
+    #Collection {
+        display: none;
+        height: 300px;
+        position: absolute;
+        width: 200px;
+        margin-top: -5px;
+    }
+    #navtext:hover #Collection {
+        display: block;
+        height: 186px;
+        width: 180px;
+        margin-left: 20px;
+        background-color: #6b272c;
+    }
+    #Collection ul {
+        list-style: none;
+        line-height: 30px;
+    }
+    #Collection ul li{
+        font-size: 10px;
+        line-height: 23px;
+        text-align: left;
+    }
+    #Collection ul li:hover{
+        font-size: 12px;
+        color: #E5AAAE;
+    }
+    #banner img{
+        width: 380px;
+        height: 280px;
+    }
+    #banner{
+        height: 280px;
+    }
+    #INFO {
+        font-size: 15px;
+        height: fit-content;
+    }
+    #marquee{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #marquee.content{
+        display: flex;
+        gap: 20px;
+        animation: marquee-animation 15s linear infinite;
+    }
+    #product1{
+        height: 100px ;
+        width: 100px;
+        margin-left: 47px;
+        margin-top: 30px;
+        float: left;
+    }
+    #productimg{
+        height: 100px ;
+        width: 100px;
+        border-radius: 50%;
+        float: left;
+    }
+}
